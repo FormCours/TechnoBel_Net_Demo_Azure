@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Azure_Message.API", "Demo_Azure_Message.API\Demo_Azure_Message.API.csproj", "{A9B0CB4A-A178-45A1-8ECC-83B4EB5B49FF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Demo_Azure_Message.Database", "Demo_Azure_Message.Database\Demo_Azure_Message.Database.sqlproj", "{336F798A-AAF4-4D83-B8DE-E740D97C83B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.Database", "Toolbox.Database\Toolbox.Database.csproj", "{E3F00F4B-9CBA-4EDA-91B8-0FDC7FB39B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Azure_Message.TestConsole", "Demo_Azure_Message.TestConsole\Demo_Azure_Message.TestConsole.csproj", "{791822CB-3921-481F-86E9-F86AACC45B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Azure_Message.DAL", "Demo_Azure_Message.DAL\Demo_Azure_Message.DAL.csproj", "{A49CD215-AB2D-44A4-8488-0221BA89F07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B0CB4A-A178-45A1-8ECC-83B4EB5B49FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B0CB4A-A178-45A1-8ECC-83B4EB5B49FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B0CB4A-A178-45A1-8ECC-83B4EB5B49FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B0CB4A-A178-45A1-8ECC-83B4EB5B49FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336F798A-AAF4-4D83-B8DE-E740D97C83B0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E3F00F4B-9CBA-4EDA-91B8-0FDC7FB39B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F00F4B-9CBA-4EDA-91B8-0FDC7FB39B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F00F4B-9CBA-4EDA-91B8-0FDC7FB39B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F00F4B-9CBA-4EDA-91B8-0FDC7FB39B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791822CB-3921-481F-86E9-F86AACC45B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791822CB-3921-481F-86E9-F86AACC45B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791822CB-3921-481F-86E9-F86AACC45B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791822CB-3921-481F-86E9-F86AACC45B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49CD215-AB2D-44A4-8488-0221BA89F07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49CD215-AB2D-44A4-8488-0221BA89F07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49CD215-AB2D-44A4-8488-0221BA89F07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49CD215-AB2D-44A4-8488-0221BA89F07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC11747D-D794-4CF4-ADCA-877B4780CDB2}
+	EndGlobalSection
+EndGlobal
