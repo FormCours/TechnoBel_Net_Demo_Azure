@@ -67,7 +67,7 @@ namespace Demo_Azure_Message.DAL.Services
         {
             Command command = new Command("INSERT INTO [Message] ([Title], [Content], [Username]) " +
                                             "OUTPUT [inserted].[Id] " +
-                                            "VALUES (@Title, @Content, @Username");
+                                            "VALUES (@Title, @Content, @Username);");
             command.AddParameter("Title", entity.Title);
             command.AddParameter("Content", entity.Content);
             command.AddParameter("Username", entity.Username);
